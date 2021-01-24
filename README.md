@@ -26,5 +26,5 @@ urbana no Brasil o SHCU é o mais importante fórum de debates, difusão,
 trocas entre pesquisadores, programas de pós-graduação, graduação e
 prática profissional. É neste sentido que nos propomos a prosseguir este
 trabalho, dando-lhe continuidade no XIII SHCU, cujo tema central se
-expressa no seu título: .*Tempos e Escalas da Cidade e do Urbanismo*
+expressa no seu título: *Tempos e Escalas da Cidade e do Urbanismo*.
 
