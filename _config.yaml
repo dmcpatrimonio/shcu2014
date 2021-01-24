@@ -12,7 +12,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 collections:
   cotidiano:
     output: true
-  discurso-profissional:
+  discurso:
     output: true
   representacoes:
     output: true
