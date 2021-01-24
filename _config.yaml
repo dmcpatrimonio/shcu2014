@@ -1,11 +1,15 @@
 title: XIII SHCU
-author:
-  name: Associação Nacional de Pesquisa e Pós-graduação em Planejamento Urbano e Regional (Anpur)
-  email: secretaria@anpur.org.br
+author: © Associação Nacional de Pesquisa e Pós-graduação em Planejamento Urbano e Regional (Anpur)
+email: secretaria@anpur.org.br
 description: >
-  XIII Seminário de História da Cidade e do Urbanismo ·
-  Tempos e Escalas da Cidade e do Urbanismo ·
-  Brasília, 2014
+  PEIXOTO, E. R.; PALAZZO, P. P.; DERNTL, M. F.; TREVISAN, R. (orgs.)
+  Tempos e Escalas da Cidade e do Urbanismo:
+  XIII Seminário de História da Cidade e do Urbanismo. Anais.
+  Brasília: Faculdade de Arquitetura e Urbanismo da Universidade de Brasília, 2014.
+  ISBN 978-85-60762-19-4
+baseurl: ""
+url: "https://shcu2014.com.br"
+lang: pt
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -45,6 +49,11 @@ minima:
     # microdotblog: jekyll
     # keybase: jekyll
 
+readme_index:
+  enabled:          true
+  remove_originals: true
+  with_frontmatter: true
+
 header_pages:
  - anais.md
  - organizacao.md
@@ -57,3 +66,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - kramdown
+    # The following plugins are always used by GH-Pages
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links

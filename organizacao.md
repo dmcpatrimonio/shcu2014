@@ -29,7 +29,7 @@ layout: page
 - Prof.ª Dr.ª Luciana Saboia, Universidade de Brasília
 - Prof.ª Dr.ª Maria Cecília Filgueiras Gabriele, Universidade de Brasília
 - Prof.ª Dr.ª Sylvia Ficher, Universidade de Brasília
-- Sr.ª Lenora Barbo, Câmara Legislativa do Distrito Federal
+- Dr.ª Lenora Barbo, Câmara Legislativa do Distrito Federal
 - Prof. Dr. Marcos Thadeu Queiroz Magalhães, Universidade Federal da Bahia
 
 ## Presidente da Comissão Científica
