@@ -1,0 +1,58 @@
+title: XIII SHCU
+author:
+  name: Associação Nacional de Pesquisa e Pós-graduação em Planejamento Urbano e Regional (Anpur)
+  email: secretaria@anpur.org.br
+description: >
+  XIII Seminário de História da Cidade e do Urbanismo ·
+  Tempos e Escalas da Cidade e do Urbanismo ·
+  Brasília, 2014
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+collections:
+  cotidiano:
+    output: true
+  discurso-profissional:
+    output: true
+  representacoes:
+    output: true
+  territorio:
+    output: true
+  poster:
+    output: true
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%e %B %Y"
+
+  # generate social links in footer
+  social_links:
+    #twitter: jekyllrb
+    github:  dmcpatrimonio
+    # devto: jekyll
+    # dribbble: jekyll
+    facebook: LabeUrbe
+    # flickr:   jekyll
+    instagram: anpur2019
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - kramdown
