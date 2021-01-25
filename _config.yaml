@@ -9,26 +9,28 @@ description: >
   XIII Seminário de História da Cidade e do Urbanismo
 baseurl: ""
 url: "https://shcu2014.com.br"
-lang: pt
+lang: pt-BR
+
+permalink: /:categories/:title:output_ext
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
 collections:
-  cotidiano:
-    layout: post
+  category:
     output: true
-  discurso:
-    layout: post
-    output: true
-  representacoes:
-    layout: post
-    output: true
-  territorio:
-    layout: post
-    output: true
-  poster:
-    layout: post
-    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+kramdown:
+  header_offset: 1
+  parse_block_html: true
+  parse_span_html: true
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -61,8 +63,9 @@ readme_index:
   with_frontmatter: true
 
 header_pages:
- - anais.md
- - organizacao.md
+  - eixos-tematicos.md
+  - anais.md
+  - organizacao.md
 
 # Build settings
 theme: minima

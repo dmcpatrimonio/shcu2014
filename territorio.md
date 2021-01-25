@@ -1,19 +1,15 @@
 ---
 title : Território
-layout: page
+layout: category
+tag   : Território
 ---
 
-<table width="100%">
-  <thead>
-    <tr>
-      <td>Autores</td><td>Título</td>
-    </tr>
-  </thead><tbody>
-{%- for paper in site.territorio %}
-    <tr>
-      <td>{{ paper.author }}</td>
-      <td><a href="{{ paper.url }}">{{ paper.title }}</a></td>
-    </tr>
-  {% endfor -%}
-  </tbody>
-</table>
+Nesta sessão temática entende-se o território como noção fundamental,
+considerado não tanto como uma escala dimensional determinada mas como
+termo polissêmico que articula relações entre espaços, políticas e
+identidades. O território envolve apropriação de espaços para
+estabelecer efetivo domínio, mas também pode se referenciar numa
+construção simbólica, expressiva de um determinado imaginário
+temporalmente localizado. Aqui se incluem os trabalhos que discutam os
+significados do território e os processos sociais e práticas que levam à
+sua criação, ocupação e transformação.

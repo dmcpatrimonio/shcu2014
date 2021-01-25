@@ -1,0 +1,24 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul class="post-list">
+  {%- for post in site.categories[page.tag] %}
+      <li>
+        {% comment -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {%- endcomment %}
+        <span class="post-meta">{{ post.author }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+  {% endfor -%}
+</ul>
