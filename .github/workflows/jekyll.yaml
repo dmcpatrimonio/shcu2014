@@ -13,5 +13,5 @@ jobs:
       - name: Test build website
         run: >
           docker run -v "`${{ github_workspace }}`:/srv/jekyll"
-        jekyll/jekyll:pages /bin/bash -c
-        "chmod 777 /srv/jekyll && jekyll build --future"
+          jekyll/jekyll:pages /bin/bash -c
+          "chmod 777 /srv/jekyll && jekyll build --future"
