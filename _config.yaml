@@ -1,12 +1,12 @@
-title: XIII SHCU
-author: © Associação Nacional de Pesquisa e Pós-graduação em Planejamento Urbano e Regional (Anpur)
+title: Tempos e Escalas da Cidade e do Urbanismo
+author:
+  - name: Elane Ribeiro Peixoto
+  - name: Pedro P. Palazzo
+  - name: Maria Fernanda Derntl
+  - name: Ricardo Trevisan
 email: secretaria@anpur.org.br
 description: >
-  PEIXOTO, E. R.; PALAZZO, P. P.; DERNTL, M. F.; TREVISAN, R. (orgs.)
-  Tempos e Escalas da Cidade e do Urbanismo:
-  XIII Seminário de História da Cidade e do Urbanismo. Anais.
-  Brasília: Faculdade de Arquitetura e Urbanismo da Universidade de Brasília, 2014.
-  ISBN 978-85-60762-19-4
+  XIII Seminário de História da Cidade e do Urbanismo
 baseurl: ""
 url: "https://shcu2014.com.br"
 lang: pt
@@ -15,25 +15,26 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 collections:
   cotidiano:
-    layout: paper
+    layout: post
     output: true
   discurso:
-    layout: paper
+    layout: post
     output: true
   representacoes:
-    layout: paper
+    layout: post
     output: true
   territorio:
-    layout: paper
+    layout: post
     output: true
   poster:
-    layout: paper
+    layout: post
     output: true
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%e %B %Y"
+  sass_dir: _sass
 
   # generate social links in footer
   social_links:

@@ -1,0 +1,49 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+          {% if site.author.email -%}
+            <p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          {%- endif %}
+      </div>
+      <div class="footer-col">
+        <p>Como citar:</p>
+      {%- if site.author %}
+        <ul class="contact-list" style="display: inline">
+          {% for a in site.author -%}
+          <li class="p-name" style="display: inline">
+            <span itemprop="editor" itemscope itemtype="http://schema.org/Person"> {{ a.name | escape }}</span>;
+          </li>
+          {% endfor -%}
+          (orgs.)
+        </ul>
+      {%- endif %}
+        <p><span itemprop="isPartOf" itemscope itemtype="http://schema.org/Book">
+          <em><span itemprop="name">{{ site.title | escape }}</span></em>.
+          {{ site.description | escape }}.
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">Brasília</span>:
+          <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">Editora FAU&ndash;UnB</span>,
+          <span itemprop="datePublished" itemscope itemtype="http://schema.org/Date">2014</span>.
+          ISBN <span itemprop="isbn" itemscope itemtype="http://schema.org/Text">978-85-60762-19-4</span>
+          </span></p>
+      </div>
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+</footer>
+
