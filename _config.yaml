@@ -18,21 +18,6 @@ show_excerpts: false # set to true to show excerpts on the homepage
 collections:
   category:
     output: true
-  #cotidiano:
-    #layout: post
-    #output: true
-  #discurso:
-    #layout: post
-    #output: true
-  #representacoes:
-    #layout: post
-    #output: true
-  #territorio:
-    #layout: post
-    #output: true
-  #poster:
-    #layout: post
-    #output: true
 
 defaults:
   -
