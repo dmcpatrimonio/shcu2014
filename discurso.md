@@ -1,19 +1,15 @@
 ---
 title : Discursos profissionais
-layout: page
+layout: category
+tag   : Discursos profissionais
 ---
 
-<table width="100%">
-  <thead>
-    <tr>
-      <td>Autores</td><td>Título</td>
-    </tr>
-  </thead><tbody>
-  {%- for paper in site.discurso %}
-    <tr>
-      <td>{{ paper.author }}</td>
-      <td><a href="{{ paper.url }}">{{ paper.title }}</a></td>
-    </tr>
-  {% endfor -%}
-  </tbody>
-</table>
+Ao longo do último século, afirmaram-se esferas de competência de
+urbanistas, planejadores, e outros atores. Todavia, o estabelecimento do
+discurso profissional com respeito à cidade é ancestral. Por discurso
+entende-se, aqui, todo tipo de produção de conhecimento, seja ele
+analítico ou propositivo, na forma de textos, projetos, planos, entre
+outros. A autoridade atribuída a esses discursos se ampara ora em
+regulamentações legais, ora no capital simbólico. Nesta sessão cabem
+trabalhos abordando o papel do profissional na produção do espaço
+urbano, bem como naquela das narrativas a respeito deste.

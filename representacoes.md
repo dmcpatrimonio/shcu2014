@@ -1,19 +1,19 @@
 ---
 title : Representações
-layout: page
+layout: category
+tag   : Representações
 ---
 
-<table width="100%">
-  <thead>
-    <tr>
-      <td>Autores</td><td>Título</td>
-    </tr>
-  </thead><tbody>
-{%- for paper in site.representacoes %}
-    <tr>
-      <td>{{ paper.author }}</td>
-      <td><a href="{{ paper.url }}">{{ paper.title }}</a></td>
-    </tr>
-  {% endfor -%}
-  </tbody>
-</table>
+As representações, como formas de apreensão do mundo, contrapõem
+diferentes percepções do real. Podem ser instrumentos de persuasão, de
+afirmação de valores compartilhados, como também do exercício do poder.
+Tornam o ausente presente e operam no âmbito das correspondências
+simbólicas. As representações se relacionam tanto ao individual quanto
+ao coletivo, expressando identidades e reconhecimentos. Por isso, sobre
+elas não há consenso, e nem são fáceis de decifrar. No jogo de tensões
+entre representações diversas se instalam resistências e se realizam
+sublevações. Esta sessão pretende reunir estudos dedicados a
+representações da cidade e do urbano, compreendendo pesquisas sobre
+iconografia, literatura, cartografia, rituais, patrimônio histórico, e
+mais quaisquer objetos que possam ser analisados sob a ótica das
+representações.
