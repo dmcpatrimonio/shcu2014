@@ -86,7 +86,7 @@ cidade e seus habitantes no percurso histórico, com atenção, por
 exemplo, às práticas e sociabilidades, aos espaços públicos e suas
 configurações.
 
-### [Discurso Profissional](discurso-profissional.md) {#discursoprofissional}
+### [Discurso Profissional](discurso.md) {#discursoprofissional}
 
 Ao longo do último século, afirmaram-se esferas de competência de
 urbanistas, planejadores, e outros atores. Todavia, o estabelecimento do
