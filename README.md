@@ -3,6 +3,10 @@ layout: home
 title: XIII Seminário de História da Cidade e do Urbanismo
 ---
 
+<!--
+![Website build](https://github.com/dmcpatrimonio/shcu2014/workflows/Website%20build/badge.svg)
+    -->
+
 O Seminário de História da Cidade e do Urbanismo teve em Brasília sua
 décima terceira edição. Bienalmente realizado, em 2014 computam-se 26
 anos de existência a partir de sua criação, cuja indicativa deveu-se ao
